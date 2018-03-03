@@ -31,7 +31,7 @@
   
                 <p>Please choose the scheme of key establishment:</p>
             </legend>
-            <a href="Key Agreement.php">
+            <a href="KeyAgreement.php">
                 <button>Key Agreement</button>
             </a>
             <a href="Home.php">

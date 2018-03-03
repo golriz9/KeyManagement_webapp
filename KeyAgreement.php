@@ -55,7 +55,7 @@
                 
             <p>Key confirmation may be added to many of the key agreement schemes to provide assurance that the 
                 participants share the same keying material. Each party <b>should</b> have such assurance.</p>
-            <a href="Key Confirmation.php">
+            <a href="KeyConfirmation.php">
                 <button>Key Confirmation</button>
             </a>
 

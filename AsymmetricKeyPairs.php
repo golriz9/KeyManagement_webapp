@@ -29,7 +29,7 @@
         </fieldset>
 
         <fieldset>                    
-            <a href="Key Generation.php">
+            <a href="KeyGeneration.php">
                 <button>Key Generation</button>
             </a> 
             <a href="Home.php">
