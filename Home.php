@@ -1,16 +1,21 @@
+<!DOCTYPE html>
 <html>
+
     <head>
-        <link rel="shortcut icon" href="logo56.jpg" type="image/x-icon" />
+        <link rel="shortcut icon" href="Handshake-icon.png" type="image/x-icon" />
         <title>Key Management</title>
         <link href="content/app.css" rel="stylesheet"/>
         <script src="scripts/app.js" type="application/javascript"></script>
         <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>-->
     </head>
-    <body>
-        <header class="container-fluid">
-            <h1>Key Management</h1>    
-        </header>
+
+<body>
+
+    <header class="container-fluid">
+        <h1>Key Management</h1>    
+    </header>
+ 
         <fieldset>
             <legend><h2>Key Generation</h2></legend>
             <a href="Key Generation.html">
@@ -18,7 +23,7 @@
             </a>
         </fieldset>
 
-        <fieldset>
+ <fieldset>
             <legend><h2>Key Establishment</h2></legend>
             <p>Secret cryptographic keying material may be electronically 
                 established between parties by using a key-establishment scheme, that is, 
@@ -62,6 +67,7 @@
             <p {{ timestamp }}></p>
         </footer>
        
-    </body>
 
-</html>
+</body>
+</html> 
+
