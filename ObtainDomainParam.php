@@ -21,19 +21,19 @@
 
             <select onchange="location = this.options[this.selectedIndex].value;">
                 <option>Please select</option>
-                <option value="FFC.html">Finite Field Cryptography (FFC)</option>
-                <option value="ECC.html">Elliptical Curve Cryptography (ECC) </option>
+                <option value="FFC.php">Finite Field Cryptography (FFC)</option>
+                <option value="ECC.php">Elliptical Curve Cryptography (ECC) </option>
             </select>
 
 
         </fieldset>
 
         <fieldset>           
-            <a href="DomainParamAssurance.html">
+            <a href="DomainParamAssurance.php">
                 <button>Next</button>
             </a>                
         
-            <a href="Home.html">
+            <a href="Home.php">
                     <button>Home</button>
             </a>
         </fieldset>

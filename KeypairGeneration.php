@@ -23,19 +23,19 @@
 
             <select onchange="location = this.options[this.selectedIndex].value;">
                 <option>Please select the key-pair generation method:</option>
-                <option value="FFCKeypairGen.html">FFC key-pair generation</option>
-                <option value="ECCKeypairGen.html">ECC key-pair generation</option>                
+                <option value="FFCKeypairGen.php">FFC key-pair generation</option>
+                <option value="ECCKeypairGen.php">ECC key-pair generation</option>                
              </select>
 
 
         </fieldset>
 
         <fieldset>           
-            <a href="RequiredAssurance.html">
+            <a href="RequiredAssurance.php">
                 <button>Next</button>
             </a>                
         
-            <a href="Home.html">
+            <a href="Home.php">
                     <button>Home</button>
             </a>
         </fieldset>

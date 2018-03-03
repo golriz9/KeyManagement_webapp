@@ -20,19 +20,19 @@
 
 
             <select onchange="location = this.options[this.selectedIndex].value;">
-                <option value=".html">Key Pairs for Digital Signature Schemes</option>
-                <option value=".html">Key Pairs for Key Establishment</option>
-                <option value=".html">Distributing the Key Pairs</option>
+                <option value=".php">Key Pairs for Digital Signature Schemes</option>
+                <option value=".php">Key Pairs for Key Establishment</option>
+                <option value=".php">Distributing the Key Pairs</option>
             </select>
 
 
         </fieldset>
 
         <fieldset>                    
-            <a href="Key Generation.html">
+            <a href="Key Generation.php">
                 <button>Key Generation</button>
             </a> 
-            <a href="Home.html">
+            <a href="Home.php">
                     <button>Home</button>
             </a>
         </fieldset>

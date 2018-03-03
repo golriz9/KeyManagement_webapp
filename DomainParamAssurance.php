@@ -30,18 +30,18 @@
             </legend>
             <select onchange="location = this.options[this.selectedIndex].value;">
                 <option>Please select the key-pair type (static or ephemeral):</option>
-                <option value="KeypairGeneration.html">Obtain static key pair</option>
-                <option value="KeypairGeneration.html">Generate ephemeral key pair</option>                
+                <option value="KeypairGeneration.php">Obtain static key pair</option>
+                <option value="KeypairGeneration.php">Generate ephemeral key pair</option>                
             </select>
           
         </fieldset>
 
         <fieldset>           
-            <a href="KeypairGeneration.html">
+            <a href="KeypairGeneration.php">
                 <button>Next</button>
             </a>                
         
-            <a href="Home.html">
+            <a href="Home.php">
                     <button>Home</button>
             </a>
         </fieldset>

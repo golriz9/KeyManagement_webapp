@@ -12,7 +12,7 @@
         <fieldset>
             <legend> <p></p></legend>
 
-            <a href="Home.html">
+            <a href="Home.php">
                 <button>Home</button>
             </a>
         </fieldset>

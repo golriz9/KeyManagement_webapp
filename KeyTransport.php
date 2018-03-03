@@ -36,10 +36,10 @@
                 </ul> 
             </legend>
 
-            <a href="KA_PublicKey.html">
+            <a href="KA_PublicKey.php">
                 <button>Public Key</button>
             </a>
-            <a href="Home.html">
+            <a href="Home.php">
                 <button>Home</button>
             </a>
         </fieldset>

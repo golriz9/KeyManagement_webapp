@@ -14,7 +14,7 @@
                 Logarithm Cryptography (DLC). The security of these DLC-based key-agreement schemes
                 depends upon the intractability of the discrete logarithm problem in certain settings. </p></legend>
 
-                <a href="Home.html">
+                <a href="Home.php">
                         <button>Home</button>
                 </a>
         </fieldset>

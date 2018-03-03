@@ -24,12 +24,6 @@
 
         
   
-            <!--<a href="KA_PublicKey.html">
-                <button>Public Key</button>
-            </a>
-            <a href="KA_PrivateKey.html">
-                <button>Private Key</button>
-            </a>-->
         </fieldset>
 
         <fieldset>
@@ -52,16 +46,16 @@
             <p>Please select the type of the key agreement scheme:</p>
             <select onchange="location = this.options[this.selectedIndex].value;">
                 <option>Select the key agreement scheme:</option>
-                <option value="KA_2e.html">Schemes Using Two Ephemeral Key Pairs, C(2e)</option>
-                <option value="KA_1e.html">Schemes Using One Ephemeral Key Pair, C(1e)</option>
-                <option value="KA_0e.html">Schemes Using No Ephemeral Key Pair, C(0e, 2s)</option>
+                <option value="KA_2e.php">Schemes Using Two Ephemeral Key Pairs, C(2e)</option>
+                <option value="KA_1e.php">Schemes Using One Ephemeral Key Pair, C(1e)</option>
+                <option value="KA_0e.php">Schemes Using No Ephemeral Key Pair, C(0e, 2s)</option>
             </select>  
            
 
                 
             <p>Key confirmation may be added to many of the key agreement schemes to provide assurance that the 
                 participants share the same keying material. Each party <b>should</b> have such assurance.</p>
-            <a href="Key Confirmation.html">
+            <a href="Key Confirmation.php">
                 <button>Key Confirmation</button>
             </a>
 
@@ -98,7 +92,7 @@
            
 
 
-            <a href="Home.html">
+            <a href="Home.php">
                 <button>Home</button>
             </a>
         </fieldset>

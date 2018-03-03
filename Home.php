@@ -18,7 +18,7 @@
  
         <fieldset>
             <legend><h2>Key Generation</h2></legend>
-            <a href="Key Generation.html">
+            <a href="Key Generation.php">
                 <button>Key Generation</button>
             </a>
         </fieldset>
@@ -29,33 +29,33 @@
                 established between parties by using a key-establishment scheme, that is, 
                 by using either a key-agreement scheme or a key-transport scheme.</p>
 
-            <a href="Key Establishment Prep.html">
+            <a href="Key Establishment Prep.php">
                 <button>Key Establishment Preparations</button>
             </a>
         
-            <a href="Key Agreement.html">
+            <a href="Key Agreement.php">
                 <button>Key Agreement</button>
             </a>
 
-            <a href="Key Transport.html">
+            <a href="Key Transport.php">
                 <button>Key Transport</button>
             </a>
 
-            <a href="KE_Security.html">
+            <a href="KE_Security.php">
                 <button>Security of Key-Establishment Scheme</button>
             </a>
         </fieldset>
 
         <fieldset>
             <legend><h2>Key Derivation</h2></legend>
-            <a href="Key Derivation.html">
+            <a href="Key Derivation.php">
                 <button>Key Derivation</button>
             </a>
         </fieldset>
 
         <fieldset>
             <legend><p></p></legend>
-            <a href="Assurance.html">
+            <a href="Assurance.php">
                 <button>Assurance</button>
             </a>
 

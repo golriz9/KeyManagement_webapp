@@ -31,10 +31,10 @@
   
                 <p>Please choose the scheme of key establishment:</p>
             </legend>
-            <a href="Key Agreement.html">
+            <a href="Key Agreement.php">
                 <button>Key Agreement</button>
             </a>
-            <a href="Home.html">
+            <a href="Home.php">
                     <button>Home</button>
             </a>
         </fieldset>

@@ -19,11 +19,11 @@
             </legend>
 
             <select onchange="location = this.options[this.selectedIndex].value;">  
-                    <option value=".html">Direct Generation of Symmetric Keys</option>
-                    <option value=".html">Symmetric Keys Generated Using Key-Agreement Schemes</option>
-                    <option value=".html">Symmetric Keys Derived From a Pre-shared Key</option> 
-                    <option value=".html">Symmetric Keys Derived From Passwords</option> 
-                    <option value=".html">Symmetric Keys Produced by Combining Multiple Keys and Other Data</option> 
+                    <option value=".php">Direct Generation of Symmetric Keys</option>
+                    <option value=".php">Symmetric Keys Generated Using Key-Agreement Schemes</option>
+                    <option value=".php">Symmetric Keys Derived From a Pre-shared Key</option> 
+                    <option value=".php">Symmetric Keys Derived From Passwords</option> 
+                    <option value=".php">Symmetric Keys Produced by Combining Multiple Keys and Other Data</option> 
                 </select>
 
             <ul>                
@@ -35,11 +35,11 @@
         </fieldset>
 
         <fieldset>           
-            <a href="Key Generation.html">
+            <a href="Key Generation.php">
                 <button>Key Generation</button>
             </a>                
         
-            <a href="Home.html">
+            <a href="Home.php">
                     <button>Home</button>
             </a>
         </fieldset>

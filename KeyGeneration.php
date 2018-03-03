@@ -29,7 +29,7 @@
             <h2>Methods of Key Generation:</h2>
             <select onchange="location = this.options[this.selectedIndex].value;">
                 <option>Please select the method of key generation:</option>
-                <option value="RBG.html">Generation of a key using the output of an RBG</option>
+                <option value="RBG.php">Generation of a key using the output of an RBG</option>
                 <option value="">Derivation of a key from another key (indirectly generated from RBG)</option>
                 <option value="">Derivation of a key from a password for storage application (indirectly generated from RBG)</option>
                 <option value="">Key agreement transaction (indirectly generated from RBG)</option>               
@@ -51,10 +51,10 @@
         
         <fieldset>
             <legend><p>Choose the type of the key that you want to generate:</p></legend>
-            <a href="AsymmetricKeyPairs.html">
+            <a href="AsymmetricKeyPairs.php">
                 <button>Asymmetric</button>
             </a>
-            <a href="SymmetricKeyPairs.html">
+            <a href="SymmetricKeyPairs.php">
                 <button>Symmetric</button>
             </a>
         </fieldset>
@@ -62,7 +62,7 @@
 
         <fieldset>
             <legend><p></p></legend>
-            <a href="Home.html">
+            <a href="Home.php">
                 <button>Home</button>
             </a>
         </fieldset>

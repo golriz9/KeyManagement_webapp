@@ -19,13 +19,13 @@
                     <p>The party that provides the assurance is called the <i>provider</i> of the assurance, and the party that obtains the 
                     assurance is called the <i>recipient</i> of the assurance.</p>
             </legend>
-            <a href="AssuranceProvider.html">
+            <a href="AssuranceProvider.php">
                 <button>Assurance Provider</button>
             </a>
-            <a href="AssuranceRecipient.html">
+            <a href="AssuranceRecipient.php">
                 <button>Assurance Recipient</button>
             </a>
-            <a href="Home.html">
+            <a href="Home.php">
                     <button>Home</button>
             </a>
         </fieldset>

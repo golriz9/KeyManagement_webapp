@@ -38,11 +38,11 @@
         </fieldset>
 
         <fieldset>           
-            <a href="DomainParamAssurance.html">
+            <a href="DomainParamAssurance.php">
                 <button>Next</button>
             </a>                
         
-            <a href="Home.html">
+            <a href="Home.php">
                 <button>Home</button>
             </a>
         </fieldset>

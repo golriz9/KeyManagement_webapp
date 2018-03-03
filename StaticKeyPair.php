@@ -32,15 +32,15 @@
             </legend>
 
                    
-            <a href="establishIdentifiers.html">
+            <a href="establishIdentifiers.php">
                 <button>Next</button>
             </a>               
        
-            <a href="Key Agreement.html">
+            <a href="Key Agreement.php">
                 <button>Key Agreement</button>
             </a>
 
-            <a href="Home.html">
+            <a href="Home.php">
                 <button>Home</button>
             </a>
         </fieldset>

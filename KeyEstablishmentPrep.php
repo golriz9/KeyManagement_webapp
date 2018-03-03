@@ -39,11 +39,11 @@
         </fieldset>
 
         <fieldset>
-                <a href="ObtainDomainParam.html">
+                <a href="ObtainDomainParam.php">
                     <button>Next</button>
                 </a>   
          
-                <a href="Home.html">
+                <a href="Home.php">
                         <button>Home</button>
                 </a>
         </fieldset>
