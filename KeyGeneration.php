@@ -26,7 +26,7 @@
     
             </ul>
 
-            <h2>Methods of Key Generation:</h2>
+            <h2>Methods of Key Generation</h2>
             <select onchange="location = this.options[this.selectedIndex].value;">
                 <option>Please select the method of key generation:</option>
                 <option value="RBG.php">Generation of a key using the output of an RBG</option>

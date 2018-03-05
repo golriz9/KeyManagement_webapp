@@ -18,6 +18,9 @@
  
         <fieldset>
             <legend><h2>Key Generation</h2></legend>
+            <p>The keys are either generated using mathematical processing on the output of approved Random Bit Generators and possibly other parameters,
+                or generated based upon keys that are generated in this fashion.
+            </p> 
             <a href="KeyGeneration.php">
                 <button>Key Generation</button>
             </a>
