@@ -8,6 +8,27 @@ aside {
     padding-top: 10px;
     font-weight: bold;
 }
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height:2.0;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height:2.0;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height:2.0;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height:2.0;
+}
+
+
+
 .title {
     color: darkblue;
 }
@@ -37,6 +58,8 @@ fieldset{background-color: rgb(216, 206, 206);}
 
 legend{border-top: 5px rgb(102, 98, 98) solid;
     border-right: 5px rgb(102, 98, 98) solid;
+    border-left: 5px rgb(102, 98, 98) solid;
+    border-bottom: 5px rgb(102, 98, 98) solid;
     border-radius: 10px;
     padding-bottom: 0px;}
 legend{background-color: rgb(226, 226, 214);}

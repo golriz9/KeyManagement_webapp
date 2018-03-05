@@ -30,10 +30,10 @@
 
 
             <select onchange="location = this.options[this.selectedIndex].value;">
-                <option>Please select th key pairs scheme:</option>
+                <option>Please select the key pairs scheme:</option>
                 <option value="KeypairForDigitSign.php">Key Pairs for Digital Signature Schemes</option>
                 <option value="KeypairForKeyEstab.php">Key Pairs for Key Establishment</option>
-                <option value=".php">Distributing the Key Pairs</option>
+                <option value="DistributKeyPairs.php">Distributing the Key Pairs</option>
             </select>
 
 
