@@ -5,7 +5,7 @@
         <link href="content/app.css" rel="stylesheet"/>                
     </head>
 
-    <body>
+    <body onbeforeunload='resetSelect()'>
         <header class="container-fluid">
             <h1>Key Agreement Schemes Using One Ephemeral Key Pair</h1>    
         </header>

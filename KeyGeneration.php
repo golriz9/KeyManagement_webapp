@@ -7,7 +7,7 @@
         <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>-->
     </head>
-    <body>
+    <body onbeforeunload='resetSelect()'>
         <header class="container-fluid">
             <h1>Key Generation</h1>    
         </header>
@@ -26,8 +26,9 @@
     
             </ul>
 
+           
             <h2>Methods of Key Generation</h2>
-            <select onchange="location = this.options[this.selectedIndex].value;">
+            <select onchange="location = this.options[this.selectedIndex].value;" id="DropDownList">
                 <option>Please select the method of key generation:</option>
                 <option value="RBG.php">Generation of a key using the output of an RBG</option>
                 <option value="">Derivation of a key from another key (indirectly generated from RBG)</option>

@@ -5,7 +5,7 @@
         <link href="content/app.css" rel="stylesheet"/>                
     </head>
 
-    <body>
+    <body onbeforeunload='resetSelect()'>
         <header class="container-fluid">
             <h1>FFC Key Pair Generation</h1>    
         </header>

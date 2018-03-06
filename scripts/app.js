@@ -28,3 +28,7 @@ function chooseDomainParamMethod() {
     theMessage = "You selected: " + x;
 }
 
+function resetSelect() {
+    document.getElementById("DropDownList").selectedIndex = -1;
+}
+

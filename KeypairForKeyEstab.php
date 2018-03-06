@@ -6,7 +6,7 @@
         <script src="scripts/app.js" type="application/javascript"></script>
     </head>
 
-    <body>
+    <body onbeforeunload='resetSelect()'>
         <header class="container-fluid">
             <h1>Key Pairs for Key Establishment Schemes</h1>    
         </header>
