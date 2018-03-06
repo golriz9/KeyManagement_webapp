@@ -19,7 +19,7 @@
             </legend>
 
 
-            <select onchange="location = this.options[this.selectedIndex].value;">
+            <select onchange="location = this.options[this.selectedIndex].value;" id="DropDownList">
                 <option>Please select</option>
                 <option value="FFC.php">Finite Field Cryptography (FFC)</option>
                 <option value="ECC.php">Elliptical Curve Cryptography (ECC) </option>

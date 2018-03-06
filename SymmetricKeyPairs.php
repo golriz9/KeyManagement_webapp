@@ -49,7 +49,7 @@
         <fieldset>
             <legend><h2>Methods of Generation of Symmetric Keys</h2></legend>
 
-            <select onchange="location = this.options[this.selectedIndex].value;">  
+            <select onchange="location = this.options[this.selectedIndex].value;" id="DropDownList">  
                 <option>Please select the method of symmetric key generation:</option>
                 <option value=".php">Direct Generation of Symmetric Keys</option>
                 <option value=".php">Symmetric Keys Generated Using Key-Agreement Schemes</option>

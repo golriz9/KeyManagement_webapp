@@ -2,9 +2,7 @@
     <head>
         <link rel="shortcut icon" href="logo56.jpg" type="image/x-icon" />
         <title>Key Agreement</title>
-        <link href="content/app.css" rel="stylesheet"/>     
-        <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>-->           
+        <link href="content/app.css" rel="stylesheet"/>      
     </head>
 
     <body onbeforeunload='resetSelect()'>
@@ -19,10 +17,7 @@
                 <p>The method used to combine the information made available to both parties provides
                 assurance that neither party can control the output of the key-agreement process (neither party
                 can predetermine the value of the secret keying material independently from the contributions 
-                of the other party.) Contrast with key-transport. </p>
-           
-
-        
+                of the other party.) Contrast with key-transport. </p>         
   
         </fieldset>
 
@@ -44,13 +39,12 @@
                   
 
             <p>Please select the type of the key agreement scheme:</p>
-            <select onchange="location = this.options[this.selectedIndex].value;"  id="DropDownList">
+            <select onchange="location = this.options[this.selectedIndex].value;" id="DropDownList">
                 <option>Select the key agreement scheme:</option>
                 <option value="KA_2e.php">Schemes Using Two Ephemeral Key Pairs, C(2e)</option>
                 <option value="KA_1e.php">Schemes Using One Ephemeral Key Pair, C(1e)</option>
                 <option value="KA_0e.php">Schemes Using No Ephemeral Key Pair, C(0e, 2s)</option>
             </select>  
-           
 
                 
             <p>Key confirmation may be added to many of the key agreement schemes to provide assurance that the 

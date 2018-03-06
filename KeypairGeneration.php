@@ -21,7 +21,7 @@
             </legend>
 
 
-            <select onchange="location = this.options[this.selectedIndex].value;">
+            <select onchange="location = this.options[this.selectedIndex].value;" id="DropDownList">
                 <option>Please select the key-pair generation method:</option>
                 <option value="FFCKeypairGen.php">FFC key-pair generation</option>
                 <option value="ECCKeypairGen.php">ECC key-pair generation</option>                
