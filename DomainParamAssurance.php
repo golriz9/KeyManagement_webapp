@@ -28,7 +28,7 @@
                         <li></li>
                     </ul>      
             </legend>
-            <select onchange="location = this.options[this.selectedIndex].value;">
+            <select onchange="location = this.options[this.selectedIndex].value;" id="DropDownList">
                 <option>Please select the key-pair type (static or ephemeral):</option>
                 <option value="KeypairGeneration.php">Obtain static key pair</option>
                 <option value="KeypairGeneration.php">Generate ephemeral key pair</option>                

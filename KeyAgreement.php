@@ -44,7 +44,7 @@
                   
 
             <p>Please select the type of the key agreement scheme:</p>
-            <select onchange="location = this.options[this.selectedIndex].value;">
+            <select onchange="location = this.options[this.selectedIndex].value;"  id="DropDownList">
                 <option>Select the key agreement scheme:</option>
                 <option value="KA_2e.php">Schemes Using Two Ephemeral Key Pairs, C(2e)</option>
                 <option value="KA_1e.php">Schemes Using One Ephemeral Key Pair, C(1e)</option>
