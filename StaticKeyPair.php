@@ -30,7 +30,7 @@
   
                 <p>Please choose the scheme of key establishment:</p>
             </legend>
-
+            <button onclick="history.go(-1);">Back </button> 
                    
             <a href="establishIdentifiers.php">
                 <button>Next</button>

@@ -36,13 +36,14 @@
           
         </fieldset>
 
-        <fieldset>           
+        <fieldset>  
+            <button onclick="history.go(-1);">Back </button>          
             <a href="KeypairGeneration.php">
                 <button>Next</button>
             </a>                
         
             <a href="Home.php">
-                    <button>Home</button>
+                <button>Home</button>
             </a>
         </fieldset>
 

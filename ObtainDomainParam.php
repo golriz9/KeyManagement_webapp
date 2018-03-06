@@ -28,7 +28,8 @@
 
         </fieldset>
 
-        <fieldset>           
+        <fieldset>      
+            <button onclick="history.go(-1);">Back </button>      
             <a href="DomainParamAssurance.php">
                 <button>Next</button>
             </a>                

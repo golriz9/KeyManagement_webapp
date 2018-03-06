@@ -27,3 +27,4 @@ function chooseDomainParamMethod() {
     document.getElementById("demo").innerHTML = "You selected: " + x;
     theMessage = "You selected: " + x;
 }
+

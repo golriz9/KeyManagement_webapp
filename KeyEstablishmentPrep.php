@@ -38,14 +38,15 @@
             </legend>
         </fieldset>
 
-        <fieldset>
-                <a href="ObtainDomainParam.php">
-                    <button>Next</button>
-                </a>   
-         
-                <a href="Home.php">
-                        <button>Home</button>
-                </a>
+        <fieldset>            
+            <button onclick="history.go(-1);">Back </button>   
+            <a href="ObtainDomainParam.php">
+                <button>Next</button>
+            </a>   
+        
+            <a href="Home.php">
+                <button>Home</button>
+            </a>
         </fieldset>
 
     </body>

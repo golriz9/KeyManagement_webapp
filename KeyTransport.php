@@ -35,7 +35,7 @@
                         unwrap the transported keying material.</li>
                 </ul> 
             </legend>
-
+            <button onclick="history.go(-1);">Back </button> 
             <a href="KA_PublicKey.php">
                 <button>Public Key</button>
             </a>

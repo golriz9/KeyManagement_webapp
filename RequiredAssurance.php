@@ -19,6 +19,7 @@
                     <p>The party that provides the assurance is called the <i>provider</i> of the assurance, and the party that obtains the 
                     assurance is called the <i>recipient</i> of the assurance.</p>
             </legend>
+            <button onclick="history.go(-1);">Back </button> 
             <a href="AssuranceProvider.php">
                 <button>Assurance Provider</button>
             </a>

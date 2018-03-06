@@ -11,7 +11,7 @@
         </header>
         <fieldset>
             <legend> <p></p></legend>
-
+            <button onclick="history.go(-1);">Back </button> 
             <a href="Home.php">
                 <button>Home</button>
             </a>

@@ -91,7 +91,7 @@
                 employing a given approved key-agreement scheme. </p>
            
 
-
+            <button onclick="history.go(-1);">Back </button> 
             <a href="Home.php">
                 <button>Home</button>
             </a>
